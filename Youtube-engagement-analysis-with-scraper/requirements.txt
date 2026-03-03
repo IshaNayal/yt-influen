@@ -1,0 +1,22 @@
+# YouTube Data API
+google-api-python-client>=2.157.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# Transcript extraction
+youtube-transcript-api>=1.2.0  # Proxy support added in v1.0+
+
+# Audio download and Whisper transcription
+yt-dlp==2023.12.30
+openai-whisper
+
+# Whisper dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Utilities
+tqdm>=4.66.3
